@@ -1,0 +1,290 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Rubik+Beastly&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&family=Rowdies:wght@300;400;700&family=Syne+Tactile&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Geo:regular,italic&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Codystar:300,regular&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Goldman:regular,700&display=swap);
+
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat-Medium.woff2") format("woff2"), url("../fonts/Montserrat-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: Montserrat;
+	src: url("../fonts/Montserrat-ExtraBold.woff2") format("woff2"), url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SFProDisplay;
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: SFProDisplay;
+	src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: SFProDisplay;
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: CormorantInfant;
+	src: url("../fonts/CormorantInfant-LightItalic.woff2") format("woff2"), url("../fonts/CormorantInfant-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: CormorantInfant;
+	src: url("../fonts/CormorantInfant-Medium.woff2") format("woff2"), url("../fonts/CormorantInfant-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: CormorantInfant;
+	src: url("../fonts/CormorantInfant-BoldItalic.woff2") format("woff2"), url("../fonts/CormorantInfant-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+}
+
+.redsquad {
+	font-family: "Marvel", sans-serif;
+	color: red;
+	text-align: left;
+	font-size: 30px;
+	word-spacing: 10px;
+}
+
+.redsquad-rubik {
+	font-family: "Rubik Beastly", sans-serif;
+	font-size: 25px;
+}
+
+#Corinthia {
+	font-family: "Corinthia", sans-serif;
+	font-size: 40px;
+}
+
+.greensquad {
+	font-family: "Geo", sans-serif;
+	color: green;
+	text-align: right;
+	font-size: 30px;
+}
+
+.greensquad-codystar {
+	font-family: "Codystar", sans-serif;
+}
+
+#Goldman {
+	font-family: "Goldman", sans-serif;
+}
+
+.bluesquad {
+	font-family: "Montserrat", sans-serif;
+	color: blue;
+	text-align: left;
+	font-size: 30px;
+}
+
+#SFProdisplay {
+	font-family: "SFProDisplay", sans-serif;
+	font-size: 30px;
+}
+
+.CormorantInfant {
+	font-family: "CormorantInfant", sans-serif;
+	font-size: 30px;
+}
+
+.purplesquad {
+	font-family: "Rowdies", sans-serif;
+	text-align: right;
+	color: purple;
+	font-size: 30px;
+	word-spacing: 10px;
+}
+
+#Quintessential {
+	font-family: "Quintessential", sans-serif;
+	font-size: 35px;
+}
+
+.SyneTactile {
+	font-family: "SyneTactile", sans-serif;
+	font-size: 35px;
+}
+
+.red-text {
+	color: red;
+	font-size: 35px;
+}
+
+#red-marvel {
+	font-family: "Marvel", sans-serif;
+	text-decoration: overline;
+}
+
+#red-rubik {
+	font-family: "Rubik Beastly", sans-serif;
+	color: crimson;
+	text-decoration: line-through;
+}
+
+#red-corinthia {
+	font-family: "Corinthia", sans-serif;
+	color: #a4515c;
+
+	text-decoration: underline;
+}
+
+.green-text {
+	font-size: 35px;
+}
+
+#green-geo {
+	font-family: "Geo", sans-serif;
+	color: seagreen;
+	text-align: right;
+	text-shadow: 5px 5px 5px green;
+}
+
+#green-codystar {
+	font-family: "Codystar", sans-serif;
+	color: #406a11;
+	text-align: right;
+	text-shadow: 10px 10px 10px purple, 5px 5px 5px green;
+}
+
+#green-goldman {
+	font-family: "Goldman", sans-serif;
+	color: #8add2c;
+	text-align: right;
+	text-shadow: 10px 10px 10px black, 5px 5px 5px green;
+}
+
+.blue-text {
+	font-size: 35px;
+}
+
+#blue-montserrat {
+	font-family: "Montserrat", sans-serif;
+	color: skyblue;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+#blue-sfprodisplay {
+	font-family: "SFProDisplay", sans-serif;
+	color: #2a6ea2;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#blue-cormorantInfant {
+	font-family: "CormorantInfant", sans-serif;
+	color: blue;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+.cormoraninfant-italic {
+	font-family: "CormoranInfant", sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: blue;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.cormoraninfant-italic-bold {
+	font-family: "CormoranInfant", sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	color: blue;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.purple-text {
+	font-size: 35px;
+}
+
+#purple-rowdies {
+	font-family: "Rowdies", sans-serif;
+	color: #6d52b7;
+	text-align: right;
+	white-space: nowrap;
+	text-decoration: line-through;
+}
+
+#purple-quintessential {
+	font-family: "Quintessential", sans-serif;
+	color: #52247f;
+	text-align: right;
+	line-height: 1.5;
+	text-shadow: 5px 5px 5px #000, 5px 5px 5px purple;
+}
+
+#purple-synetactile {
+	font-family: "Syne Tactile", sans-serif;
+	color: #b890e0;
+	text-align: right;
+	word-spacing: 5px;
+}
+
+.footer {
+	font-family: "SFProdisplay", sans-serif;
+	text-align: center;
+	font-size: 22px;
+}
+
+.footer .red {
+	color: red;
+}
+
+.footer .green {
+	color: green;
+}
+
+.footer .blue {
+	color: blue;
+}
+
+.footer .purple {
+	color: purple;
+}
